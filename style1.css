@@ -1,0 +1,47 @@
+body{
+    background-image:url("img2.jpg");
+    background-size:cover;
+}
+.container-fluid{
+    padding-left:5rem;
+    padding-top:1.2rem;
+}
+.navbar-brand{
+    font-size:2rem;
+    color:white;
+}
+.navbar-brand:hover{
+    transform:scale(1.1);
+}
+.navbar-nav{
+    margin-left:22rem;
+}
+.nav-btn:hover{
+    transform:scale(1.05);
+}
+.nav-btn{
+    margin-left:1.5rem;
+}
+.nav-link{
+    margin-left:1.2rem;
+    font-size:1.2rem;
+    color:white;
+    opacity:0.6;
+}
+.nav-link:hover{
+    color:white;
+    opacity:1;
+    transform:scale(1.1);
+}
+.body{
+    margin-top:13rem;
+    text-align: center;
+    line-height:8;
+}
+.body-btn:hover{
+    transform:scale(1.05);
+}
+body h1,h3,h4{
+    color:rgb(18, 16, 16);
+    font-size:2.5rem;
+}
